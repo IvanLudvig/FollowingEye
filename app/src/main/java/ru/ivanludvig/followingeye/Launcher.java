@@ -7,9 +7,10 @@ import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 
 public class Launcher extends AndroidApplication {
     @Override
-    protected void onCreate (Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
+        config.useImmersiveMode = true;
         initialize(new MyGame(), config);
     }
 }

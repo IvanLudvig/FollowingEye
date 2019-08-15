@@ -1,5 +1,7 @@
 package ru.ivanludvig.followingeye;
 
+import android.util.Log;
+
 import com.badlogic.gdx.Game;
 
 import ru.ivanludvig.followingeye.screens.Eye;
@@ -21,6 +23,7 @@ public class MyGame extends Game {
 
     @Override
     public void dispose () {
-
+        super.dispose();
+        MainActivity.activity.finish();
     }
 }
