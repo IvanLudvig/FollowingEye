@@ -1,6 +1,7 @@
+# Following eye
+
 <img src="icon.png" width="192">
 
-# Following eye
 ## [Blog post](https://ivanludvig.github.io/blog/2019/07/20/calculating-screen-to-face-distance-android.html)
 ## [Download from Google Play Store](https://play.google.com/store/apps/details?id=ru.ivanludvig.followingeye)
 
